@@ -1,0 +1,13 @@
+{
+  "name": "react-apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vr70147/React-apps.git",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.12.0"
+  }
+}
