@@ -108,6 +108,7 @@ var Options = function (_React$Component4) {
     _createClass(Options, [{
         key: 'render',
         value: function render() {
+
             return React.createElement(
                 'div',
                 null,
@@ -116,11 +117,11 @@ var Options = function (_React$Component4) {
                     null,
                     'This title from Options'
                 ),
-                this.props.options.forEach(function (option) {
+                this.props.options.map(function (option) {
                     return React.createElement(
                         'p',
-                        null,
-                        'option'
+                        { key: option },
+                        option
                     );
                 })
             );
