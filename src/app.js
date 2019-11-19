@@ -8,7 +8,8 @@ class IndescisionApp extends React.Component {
         }
     }
     handlePick() {
-        const randomOption = this.state.options[Math.floor(Math.random() * this.state.options.length)]
+        const randomNumber = Math.floor(Math.random() * this.state.options.length);
+        const randomOption = this.state.options[randomNumber]
         alert(randomOption)
     }
 
